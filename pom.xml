@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kenhome</groupId>
+    <artifactId>spring_netty</artifactId>
+    <version>1.0</version>
+    <modules>
+        <module>netty_common</module>
+        <module>pom_netty</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
+    <name>spring_netty</name>
+    <description>netty</description>
+
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+    </dependencies>
+    </dependencyManagement>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.encoding>UTF8</project.encoding>
+        <skipTests>true</skipTests>
+    </properties>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+
+
+
+</project>
