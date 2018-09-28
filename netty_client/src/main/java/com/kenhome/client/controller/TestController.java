@@ -1,4 +1,4 @@
-package com.kenhome.server.controller;
+package com.kenhome.client.controller;
 
 import com.kenhome.common.constant.universal.ResponseEnum;
 import com.kenhome.common.entity.account.User;

@@ -1,4 +1,4 @@
-package com.kenhome.server;
+package com.kenhome.client;
 
 import com.kenhome.service.mapper.MapperRoot;
 import org.springframework.boot.SpringApplication;
