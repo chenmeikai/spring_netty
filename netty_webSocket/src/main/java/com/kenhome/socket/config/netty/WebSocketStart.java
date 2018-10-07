@@ -1,4 +1,4 @@
-package com.kenhome.server.config.netty;
+package com.kenhome.socket.config.netty;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
  * @Modified By:
  */
 @Component
-public class NettyStart implements CommandLineRunner {
+public class WebSocketStart implements CommandLineRunner {
 
     @Autowired
-    private WebSocketServer nettyServerListener;
+    private WebSocketServer webSocketServer;
 
     @Override
     public void run(String... args) throws Exception {
-        nettyServerListener.start();
+        webSocketServer.start();
     }
 }

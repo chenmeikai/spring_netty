@@ -5,3 +5,4 @@ netty_common/target/
 netty_server/target/
 netty_service/target/
 log/spring_web/spring.log
+netty_webSocket/target/

@@ -17,6 +17,7 @@
         <module>../netty_service</module>
         <module>../netty_client</module>
         <module>../netty_server</module>
+        <module>../netty_webSocket</module>
     </modules>
 
 

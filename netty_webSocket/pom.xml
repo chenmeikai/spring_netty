@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kenhome</groupId>
-    <artifactId>netty_server</artifactId>
+    <artifactId>netty_webSocket</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>netty_server</name>
-    <description>server模块</description>
+    <name>netty_webSocket</name>
+    <description>webSocket模块</description>
 
     <parent>
         <groupId>com.kenhome</groupId>
@@ -49,10 +49,6 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.29.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
         </dependency>
     </dependencies>
 

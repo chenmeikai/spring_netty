@@ -1,4 +1,4 @@
-package com.kenhome.server.config.netty;
+package com.kenhome.socket.config.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -21,10 +21,10 @@ import javax.annotation.Resource;
  */
 @Component
 @Slf4j
-public class NettyServerListener {
+public class WebSocketServer {
 
     /**
-     * 创建bootstrap
+     * 创建ServerBootstrap
      */
     private ServerBootstrap serverBootstrap = new ServerBootstrap();
     /**
